@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tituloNoticias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:paddingRight="10dip"
+        android:text="Noticias"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnActualizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tituloNoticias"
+        android:layout_marginTop="22dp"
+        android:layout_toLeftOf="@+id/tituloNoticias"
+        android:text="Actualizar"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/noticia2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/noticia1"
+        android:layout_alignRight="@+id/noticia1"
+        android:layout_below="@+id/noticia1"
+        android:layout_marginTop="30dp"
+        android:paddingRight="10dip"
+        android:text=" N/A "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/noticia3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/noticia2"
+        android:layout_alignRight="@+id/noticia2"
+        android:layout_below="@+id/noticia2"
+        android:layout_marginTop="30dp"
+        android:paddingRight="10dip"
+        android:text=" N/A "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/noticia4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/noticia3"
+        android:layout_alignRight="@+id/noticia3"
+        android:layout_below="@+id/noticia3"
+        android:layout_marginTop="30dp"
+        android:paddingRight="10dip"
+        android:text=" N/A"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Panico"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#ff0000"
+        android:text="@string/btn_panico"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/noticia1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnActualizar"
+        android:layout_centerHorizontal="true"
+        android:paddingRight="10dip"
+        android:text=" N/A "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

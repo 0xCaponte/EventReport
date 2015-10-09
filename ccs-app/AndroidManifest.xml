@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="caracas.ciudadania.segura"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+    
+    <!-- Required to show Maps V2 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="net.learn2develop.googlemaps.permission.MAPS_RECEIVE" />
+    <!-- Required to show current location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- Required to Get Device Phone Number -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- Required to Contact Data -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- Required to Send SMS -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+     <!-- Required to make a Call -->
+     <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- Required OpenGL ES 2.0. for Maps V2 -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:name="App"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <uses-library android:name="com.google.android.maps" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <!-- Goolge API Key -->
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="Google Maps Api Key" />
+
+        <!-- Goolge Play Services Version -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="4323000" />
+
+        <!-- ............................ Activities .......................... -->
+
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- ClearScreen Activity -->
+        <activity
+            android:name=".MenuPrincipal"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="caracas.ciudadania.segura.CLEARSCREEN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Mostrar Mapa de Incidentes Activity -->
+        <activity
+            android:name=".MapaIncidentes"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="caracas.ciudadania.segura.MostrarMapa" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Mostrar mapa para la seleccion Activity -->
+        <activity
+            android:name=".MapaReporte"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="caracas.ciudadania.segura.VerMapa" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Mostrar Lista de Tlf de Emergencia-->
+        <activity
+            android:name=".MostrarTelefonos"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="caracas.ciudadania.segura.MostrarTelefonos" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        !-- Mostrar Lista de Noticias-->
+        <activity
+            android:name=".MostrarNoticias"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="caracas.ciudadania.segura.Noticias" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Reportar Incidente 1 -->
+        <activity
+            android:name=".ReporteIncidente"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="caracas.ciudadania.segura.FormularioReporte" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- LLamar Emergencia Activity -->
+        <activity
+            android:name=".LlamadaEmergencia"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="caracas.ciudadania.segura.Emergencia" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Configuracion Activity -->
+        <activity
+            android:name=".Configuracion"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="caracas.ciudadania.segura.Configuracion" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

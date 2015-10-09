@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">CCS</string>
+    <string name="hello_world">Hello World</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- String de los Botones -->
+    <string name="btn_mapa">Mapa</string>
+    <string name="btn_reporte">Reportar</string>
+    <string name="btn_panico"> EMERGENCIA!  </string>
+    <string name="btn_tlfs">Teléfonos</string>
+    <string name="btnSiguiente">Siguiente</string>
+    <string name="btnCancelar">Cancelar</string>
+    <string name="btnContinuar">Continuar</string>
+    <string name="btnNoticias">Noticias</string>
+
+    <!-- String de los Incidentes -->
+    <string name="incidenteTipo">Tipo</string>
+    <string name="incidenteUbicacion">Ubicacion</string>
+    <string name="incidenteHora">Hora</string>
+    <string name="incidenteUbicacionAct">Actual</string>
+    <string name="incidenteUbicacionMapa">En Mapa</string>
+
+</resources>

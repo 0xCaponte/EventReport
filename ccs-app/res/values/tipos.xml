@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="incidente_tipos">
+        <item>Robo</item>
+        <item>Tiroteo</item>
+        <item>Apuñalamiento</item>
+        <item>Arresto</item>
+        <item>Vandalismo</item>
+        <item>Secuestro</item>
+        <item>Pelea</item>
+        <item>Asesinato</item>
+        <item>Otro</item>
+    </string-array>
+</resources>

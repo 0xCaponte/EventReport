@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/emergencias171"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/emergenciaOperadora"
+        android:layout_alignRight="@+id/emergenciaOperadora"
+        android:layout_below="@+id/emergenciaOperadora"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:paddingRight="10dip"
+        android:text="171 -- Emergencias"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/policiaNacional"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/emergencias171"
+        android:layout_alignRight="@+id/emergencias171"
+        android:layout_below="@+id/emergencias171"
+        android:layout_marginTop="26dp"
+        android:layout_weight="0.05"
+        android:gravity="center_horizontal"
+        android:paddingRight="10dip"
+        android:text="Policia Nacional"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bomberos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/policiaNacional"
+        android:layout_alignRight="@+id/policiaNacional"
+        android:layout_below="@+id/policiaNacional"
+        android:layout_marginTop="30dp"
+        android:layout_weight="0.05"
+        android:gravity="center_horizontal"
+        android:paddingRight="10dip"
+        android:text="Bomberos"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ejm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="14dp"
+        android:layout_weight="0.05"
+        android:gravity="center_horizontal"
+        android:paddingRight="10dip"
+        android:text="Telefonos de Emergencia"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Panico"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_weight="0.05"
+        android:background="#ff0000"
+        android:text="@string/btn_panico"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/emergenciaOperadora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ejm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        android:layout_weight="0.05"
+        android:gravity="center_horizontal"
+        android:paddingRight="10dip"
+        android:text="Emergencias Operadora"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

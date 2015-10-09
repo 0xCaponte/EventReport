@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/Panico"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#ff0000"
+        android:text="@string/btn_panico"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Tlfs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/configuracion"
+        android:layout_alignRight="@+id/configuracion"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="25dp"
+        android:text="@string/btn_tlfs"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Reporte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Tlfs"
+        android:layout_alignLeft="@+id/MapaIncidentes"
+        android:layout_alignRight="@+id/Tlfs"
+        android:layout_marginTop="25dp"
+        android:text="@string/btn_reporte"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/ic_launcher" />
+        
+    <Button
+        android:id="@+id/MapaIncidentes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Reporte"
+        android:layout_alignLeft="@+id/Tlfs"
+        android:layout_alignRight="@+id/Tlfs"
+        android:layout_marginBottom="70dp"
+        android:text="@string/btn_mapa"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/noticias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/configuracion"
+        android:layout_alignRight="@+id/configuracion"
+        android:layout_below="@+id/Tlfs"
+        android:layout_marginTop="25dp"
+        android:text="@string/btnNoticias"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/configuracion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/noticias"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="Configurar"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

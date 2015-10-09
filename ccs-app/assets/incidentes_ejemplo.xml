@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<lista-incidentes>
+	<incidente>
+		<latitud>10.52786452</latitud>
+		<longitud>-66.99959144</longitud>
+		<hora>11-05-2014 -- 22:35</hora>
+		<tipo>Ejemplo</tipo>
+		<denunciante>100000</denunciante>
+	</incidente>
+
+	<incidente>
+		<latitud>10.46665109</latitud>
+		<longitud>-66.7774405</longitud>
+		<hora>11-05-2014 -- 22:35</hora>
+		<tipo>Ejemplo</tipo>
+		<denunciante>100000</denunciante>
+	</incidente>
+	
+	<incidente>
+		<latitud>10.4711101</latitud>
+		<longitud>-67.07426632</longitud>
+		<hora>11-05-2014 -- 22:35</hora>
+		<tipo>Ejemplo</tipo>
+		<denunciante>100000</denunciante>
+	</incidente>
+
+	<incidente>
+		<latitud>10.47778855</latitud>
+		<longitud>-66.945391</longitud>
+		<hora>11-05-2014 -- 22:35</hora>
+		<tipo>Ejemplo</tipo>
+		<denunciante>100000</denunciante>
+	</incidente>
+
+	<incidente>
+		<latitud>10.49402356</latitud>
+		<longitud>-66.829137</longitud>
+		<hora>11-05-2014 -- 22:35</hora>
+		<tipo>Ejemplo</tipo>
+		<denunciante>100000</denunciante>
+	</incidente>
+	
+	<incidente>
+		<latitud>10.47778855</latitud>
+		<longitud>-66.88065059</longitud>
+		<hora>11-05-2014 -- 22:35</hora>
+		<tipo>Ejemplo</tipo>
+		<denunciante>100000</denunciante>
+	</incidente>
+	
+	
+</lista-incidentes>	
+		

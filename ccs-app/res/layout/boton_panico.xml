@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+          android:id="@+id/tituloPanico"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentTop="true"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="14dp"
+          android:paddingRight="10dip"
+          android:text="Boton de Panico"
+          android:textSize="20sp"
+          android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tituloPanico"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="92dp"
+        android:paddingRight="10dip"
+        android:textColor="#ff0000"
+        android:textSize="80sp" />
+
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:text="@string/btnCancelar"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
