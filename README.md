@@ -8,10 +8,6 @@ Authors
 --------
 Carlos Aponte
 
-Status 
-------
-I will translate and make this project compatible with Android Studio as soon as posible
-
 Contents
 ---------
 
